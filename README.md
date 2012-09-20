@@ -1,8 +1,4 @@
-# Server Monitoring System (SMS)
-
-## Buzz Keywords
-
-cherie, bonbon, sweet, harem
+# Cherie - Server Monitoring System (SMS)
 
 # Requirements
 
@@ -63,19 +59,19 @@ cherie, bonbon, sweet, harem
   - `exit_code` (a value of 0 means success, everything else is a failure)
   - `output`: text (program output, stdout + stderr)
 - Schedule:
-  - minute:       0-59
-  - hour:         9-23
-  - day of month: 1-31
-  - month:        0-12 (or names, see below)
-  - day of week:  0-7 (0 or 7 is Sun, or use names)
+  - `minute`:       0-59
+  - `hour`:         9-23
+  - `day of month`: 1-31
+  - `month`:        0-12 (or names, see below)
+  - `day of week`:  0-7 (0 or 7 is Sun, or use names)
 - Constraint:
   - `ref_id`
   - `ref_type` (Test, Group, Node)
-  - from: datetime
-  - to: datetime
-  - reason: string
+  - `from`: datetime
+  - `to`: datetime
+  - `reason`: string
 - Comment:
-  - text: string
+  - `text`: string
   - `ref_id`
   - `ref_type` (Node, Test, Group, Constraint)
 
